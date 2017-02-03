@@ -42,17 +42,21 @@ Husky uses an open source serial protocol and we offer API support for ROS, and 
 
 ## Solution
 
-Self Driving Husky will comprise of five parts. TENTATIVE!!!
+Self Driving Husky will comprise of six parts. TENTATIVE!!!
 
 * Localization - Component that is responsible for keeping track of Husky's location within an unknown environment.
 
 * Mapping - Component that is responsible for constructing or updating a map of an unknown environment.
 
-* Communication Protocol - Component that will abstract away implementation details of every sensor on Husky.
+* Communication Interface - Component that will abstract away implementation details of every sensor
+ on Husky.
 
-* Mission Control - Middle man that will allow for communicating and receiving instructions to and from Husky remotely.
+* Mission Control - Middle man that will allow for communicating and receiving instructions to
+and from Husky remotely.
 
 * Obstacle Avoidance - Component that is responsible for determining if an object is obstructing Husky's way and rerouting Husky's direction and action.
+
+* Navigation - Responsible for planning the most optimal route towards the goal.
 
 ### Data flow
 

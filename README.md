@@ -127,7 +127,7 @@ Q5. Why was ROS chosen as the operating system?
 
 ## Reference
 
-1. [Husky A200] (https://www.clearpathrobotics.com/husky-unmanned-ground-vehicle-robot/)
-2. [ROS] (http://www.ros.org/)
-3. [Autonomous Car] (https://en.wikipedia.org/wiki/Autonomous_car)
-4. [Mapping] (https://ocw.mit.edu/courses/aeronautics-and-astronautics/16-412j-cognitive-robotics-spring-2005/projects/1aslam_blas_repo.pdf)
+1. [Husky A200](https://www.clearpathrobotics.com/husky-unmanned-ground-vehicle-robot/)
+2. [ROS](http://www.ros.org/)
+3. [Autonomous Car](https://en.wikipedia.org/wiki/Autonomous_car)
+4. [Mapping](https://ocw.mit.edu/courses/aeronautics-and-astronautics/16-412j-cognitive-robotics-spring-2005/projects/1aslam_blas_repo.pdf)

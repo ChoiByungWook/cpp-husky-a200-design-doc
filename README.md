@@ -40,6 +40,8 @@ It is assumed that readers of this document are comfortable with Husky A200 and 
 Husky is a medium sized robotic development platform. Stereo cameras, LIDAR, GPS, IMUs, manipulators and more can be added to Husky.
 Husky uses an open source serial protocol and we offer API support for ROS, and options for C++ and Python.
 
+ROS is not an actual operating system. It is middleware that abstracts away the interfacing between hardware and software. However it is still important to understand the difference between ROS and RTOS.
+
 ## Solution
 
 Self Driving Husky will comprise of six parts. TENTATIVE!!!
@@ -131,3 +133,10 @@ Q5. Why was ROS chosen as the operating system?
 2. [ROS](http://www.ros.org/)
 3. [Autonomous Car](https://en.wikipedia.org/wiki/Autonomous_car)
 4. [Mapping](https://ocw.mit.edu/courses/aeronautics-and-astronautics/16-412j-cognitive-robotics-spring-2005/projects/1aslam_blas_repo.pdf)
+5. [Why ROS is not real time?](http://answers.ros.org/question/134551/why-is-ros-not-real-time/)
+6. [Real-time control in ROS and ROS 2.0](https://www.osrfoundation.org/wordpress2/wp-content/uploads/2015/11/ROSCon15-Kay.pdf)
+7. [Golf cart prototype using ROS and Gazebo](https://www.matec-conferences.org/articles/matecconf/pdf/2016/38/matecconf_icmie2016_09005.pdf)
+8. [Cal Poly Slo's Golf Cart using ROS](http://users.csc.calpoly.edu/~clupo/teaching/Capstone/pastwork/avid_whitepaper.pdf)
+9. [ROS 2](https://github.com/ros2/ros2/wiki)
+10. [Open Source RTOS](https://www.osrtos.com/)
+11. [Set-up for real-time control with ROS](http://answers.ros.org/question/61162/set-up-for-real-time-control-in-ros/)

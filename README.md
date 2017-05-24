@@ -84,13 +84,23 @@ Husky uses an open source serial protocol and we offer API support for ROS, and 
 
 ROS is not an actual operating system. It is middleware that abstracts away the interfacing between hardware and software. However it is still important to understand the difference between ROS and RTOS.
 
+For more details please check out the [onboarding documentation.](https://github.com/cpp-self-driving-husky/cpp-husky-a200-docs)
+
 ## Solution
+
+Currently, the Husky A200 comes equipped with Ubuntu 14.04 and ROS installed. This will also be replicated on the golf cart. However, based on the requirements there is a need for real time support. This will be done by using an RTOS along with Orocos.
+
+Most likely most of the behavior that handles communicating to the actual golf cart will be abstracted away within micro-controllers.
 
 Self Driving Husky will comprise of six parts. TENTATIVE!!!
 
 * Localization - Component that is responsible for keeping track of Husky's location within an unknown environment.
 
-* Mapping - Component that is responsible for constructing or updating a map of an unknown environment.
+* [Mapping](https://github.com/cpp-self-driving-husky/cpp-husky-a200-mapping) - Component that is responsible for constructing or updating a map of an unknown environment.
+
+* [Sensor Fusion](https://github.com/cpp-self-driving-husky/cpp-husky-a200-sensor-fusion)
+
+* [Stereo Vision](https://github.com/cpp-self-driving-husky/cpp-husky-a200-stereo-vision)
 
 * Communication Interface - Component that will abstract away implementation details of every sensor
  on Husky.
@@ -98,9 +108,9 @@ Self Driving Husky will comprise of six parts. TENTATIVE!!!
 * Mission Control - Middle man that will allow for communicating and receiving instructions to
 and from Husky remotely.
 
-* Obstacle Avoidance - Component that is responsible for determining if an object is obstructing Husky's way and rerouting Husky's direction and action.
+* [Obstacle Avoidance](https://github.com/cpp-self-driving-husky/cpp-husky-a200-avoidance) - Component that is responsible for determining if an object is obstructing Husky's way and rerouting Husky's direction and action.
 
-* Navigation - Responsible for planning the most optimal route towards the goal.
+* Routing/Rerouting - Responsible for planning the most optimal route towards the goal.
 
 ### Data flow
 
@@ -166,8 +176,6 @@ Q4. Why was Husky chosen as the self driving platform?
 Q5. Why was ROS chosen as the operating system?
 
     A5. ROS already comes pre-installed with Husky A200. In addition, the company behind Husky has chosen to use ROS.
-
-## Post-Review
 
 ## Reference
 

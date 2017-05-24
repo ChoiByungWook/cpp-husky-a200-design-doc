@@ -21,6 +21,48 @@ to our current and future students.
 
 * As a user, I want to be able to control Husky's movement at any given time.
 
+## Requirements
+
+**The requirements below are referenced from [System Requirements Document.](docs/CPP-Driverless-Vehicle-SRS.docx)**
+
+* The behavior software system shall perform autonomous control the steering.
+
+* The behavior software system shall perform autonomous vehicle to stopping (braking).
+
+* The behavior software system shall perform autonomous vehicle attitude / direction control.
+
+* The behavior software system shall provide support for full steering control to the user as required by operation mode.
+
+* The behavior software system shall provide interface between the user full braking control to the user as required by operation mode.
+
+* The behavior software system shall provide full acceleration control to the user as required by operation mode.
+
+* The behavior software system shall provide data fusion from all sensors that capture vehicle internal state awareness.
+
+* The behavior software shall receive internal sensor data for autonomous processing
+
+* The behavior software shall perform sensor fusion from all sensors that capture vehicle situational sensor data for autonomous processing.
+
+*  The behavior software shall provide real-time support with a deterministic response time of tbd ms (RTOS)
+
+*  The behavior software system shall interface to the user interface for processing.
+
+*  The behavior software system shall provide an open transport layer protocol structure.
+
+*  The behavior software system shall implement the route/reroute planning.
+
+*  The behavior software system shall implement the points of interest (POI) way-points into the route planning.
+
+*  The behavior software system shall implement the modes of operation.
+
+*  The behavior software system shall issue emergency behavior for sudden stops.
+
+*  The behavior software system shall be simulated prior to deployment using near similar target processing with the development environment.
+
+*  The behavior software system shall maintain its location along the route calculated.
+
+*  The behavior software system shall calculate the acceleration and deceleration command data to the embedded system.
+
 ## Common Terminologies
 
 * Autonomous - vehicle that is capable of sensing its environment and navigating without human input.

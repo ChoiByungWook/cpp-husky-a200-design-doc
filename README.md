@@ -92,7 +92,7 @@ Currently, the Husky A200 comes equipped with Ubuntu 14.04 and ROS installed. Th
 
 Most likely most of the behavior that handles communicating to the actual golf cart will be abstracted away within micro-controllers.
 
-Self Driving Husky will comprise of six parts. TENTATIVE!!!
+Below are the components that will comprise of the self-driving Husky A200.
 
 * Localization - Component that is responsible for keeping track of Husky's location within an unknown environment.
 
@@ -112,9 +112,9 @@ and from Husky remotely.
 
 * Routing/Rerouting - Responsible for planning the most optimal route towards the goal.
 
-### Data flow
-
 ### Architecture
+
+![cpp-self-driving-husky-a200](images/cpp-self-driving-husky-a200.png)
 
 ## Cost
 

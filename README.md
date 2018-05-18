@@ -190,3 +190,4 @@ Q5. Why was ROS chosen as the operating system?
 9. [ROS 2](https://github.com/ros2/ros2/wiki)
 10. [Open Source RTOS](https://www.osrtos.com/)
 11. [Set-up for real-time control with ROS](http://answers.ros.org/question/61162/set-up-for-real-time-control-in-ros/)
+12. [Robotics PowerPoint Slides](https://www.dropbox.com/home/Robotics)
